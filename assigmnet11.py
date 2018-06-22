@@ -11,7 +11,7 @@ def message():
 t= Thread (target=message)
 t.start()
 
-
+#MR.Singh
 #Ques 2. Make a thread that prints numbers from 1-10, waits for 1 sec between.
 
 
@@ -48,7 +48,7 @@ l=[10,20,30,40]
 t=Thread(target=display,args=(l))
 t.start()
 
-
+#mr.hacker
 
 #Ques 4. Call factorial function using thread.
 

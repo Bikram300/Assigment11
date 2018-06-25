@@ -4,11 +4,11 @@ import threading
 from threading import Thread
 import time
 
-def message():
+def mes():
     time.sleep(5)
-    print("Hello Python")
+    print("Hello world")
 
-t= Thread (target=message)
+t= Thread (target=mes)
 t.start()
 
 #MR.Singh
@@ -37,15 +37,15 @@ import threading
 from threading import Thread
 import time
 
-def display(l):
+def list(l):
     n=2
     for x in l:
         print(x)
         time.sleep(n)
-        n+=2
+        n=n+2
 
-l=[10,20,30,40]
-t=Thread(target=display,args=(l))
+l=[50,60,70,80]
+t=Thread(target=list,args=(l))
 t.start()
 
 #mr.hacker
